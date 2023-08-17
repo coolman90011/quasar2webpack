@@ -10,8 +10,7 @@
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "electron": "npx quasar dev -m electron -p 8090 --devtools",
-    "build-electron": "npx quasar build -m electron",
+    "electron": "npx quasar dev -m electron --devtools",
     "build": "quasar build"
   },
   "dependencies": {
